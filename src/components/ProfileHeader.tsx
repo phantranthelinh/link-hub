@@ -1,3 +1,5 @@
+import logoImage from "@/assets/logo.png";
+
 interface ProfileHeaderProps {
   name: string;
   bio: string;
@@ -6,13 +8,12 @@ interface ProfileHeaderProps {
 const ProfileHeader = ({ name, bio }: ProfileHeaderProps) => {
   return (
     <div className="flex flex-col items-center text-center">
-      <div
-        className="w-24 h-24 rounded-full flex items-center justify-center text-3xl font-bold text-primary-foreground mb-4"
-        style={{ background: 'var(--gradient-bg)' }}
-      >
-        {name.charAt(0)}
-      </div>
-      <h1 className="text-2xl font-bold text-foreground">{name}</h1>
+      <img
+        src={logoImage}
+        alt={name}
+        className="w-28 h-28 rounded-full object-cover mb-4 border-[3px] border-primary shadow-lg"
+      />
+      <h1 className="text-2xl font-bold text-accent">{name}</h1>
       <p className="mt-1 text-sm text-muted-foreground">{bio}</p>
     </div>
   );

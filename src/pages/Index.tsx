@@ -33,7 +33,7 @@ const Index = () => {
             boxShadow: 'var(--shadow-card)',
           }}
         >
-          <ProfileHeader name="Your Name" bio="✨ Content Creator & Digital Enthusiast" />
+          <ProfileHeader name="SERA Gems & Stone" bio="✨ Gems & Stone — Since 2026" />
           <div className="mt-8 flex flex-col gap-4">
             {links.map((link) => (
               <LinkCard key={link.title} {...link} />
