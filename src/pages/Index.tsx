@@ -24,7 +24,7 @@ const links = [
 
 const Index = () => {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center p-4" style={{ background: 'var(--gradient-bg)' }}>
+    <div className="min-h-screen w-full flex items-center justify-center p-4" style={{ background: 'var(--gradient-page)' }}>
       <div className="w-full max-w-md">
         <div
           className="rounded-3xl p-8 backdrop-blur-xl"

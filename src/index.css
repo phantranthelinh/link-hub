@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 30 30% 92%;
+    --background: 28 38% 93%;
     --foreground: 160 40% 15%;
 
     --card: 30 25% 95%;
@@ -37,7 +37,8 @@
     --radius: 1rem;
 
     --gradient-bg: linear-gradient(135deg, hsl(174, 70%, 45%) 0%, hsl(174, 60%, 55%) 50%, hsl(180, 50%, 65%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(30, 25%, 95%) 0%, hsl(30, 30%, 92%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(28, 38%, 95%) 0%, hsl(28, 35%, 91%) 100%);
+    --gradient-page: linear-gradient(160deg, hsl(28, 38%, 93%) 0%, hsl(30, 30%, 89%) 40%, hsl(28, 40%, 94%) 100%);
     --shadow-link: 0 4px 20px -4px hsl(174 70% 45% / 0.25);
     --shadow-card: 0 20px 60px -15px hsl(160 40% 15% / 0.15);
 
