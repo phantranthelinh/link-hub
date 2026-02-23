@@ -6,19 +6,19 @@ const links = [
     title: "TikTok",
     url: "https://www.tiktok.com/@_sweetie.gems_12",
     icon: "tiktok" as const,
-    description: "Follow me on TikTok",
+    description: "Theo dõi mình trên TikTok",
   },
   {
     title: "Instagram",
     url: "https://www.instagram.com/sera.gemsstone",
     icon: "instagram" as const,
-    description: "Follow me on Instagram",
+    description: "Theo dõi mình trên Instagram",
   },
   {
     title: "Zalo",
-    url: "tel:0898002220",
+    url: "https://zalo.me/0898002220",
     icon: "zalo" as const,
-    description: "Gọi cho tôi qua Zalo",
+    description: "Liên hệ với mình qua Zalo",
   },
 ];
 
