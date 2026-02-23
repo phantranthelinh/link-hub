@@ -10,7 +10,7 @@ const links = [
   },
   {
     title: "Instagram",
-    url: "zalo.html",
+    url: "instagram.html",
     icon: "instagram" as const,
     description: "Theo dõi mình trên Instagram",
   },
