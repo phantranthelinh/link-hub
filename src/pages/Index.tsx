@@ -3,22 +3,22 @@ import ProfileHeader from "@/components/ProfileHeader";
 
 const links = [
   {
-    title: "TikTok",
-    url: "https://www.tiktok.com/@_sweetie.gems_12",
-    icon: "tiktok" as const,
-    description: "Theo dõi mình trên TikTok",
+    title: "Zalo",
+    url: "zalo.html",
+    icon: "zalo" as const,
+    description: "💬 Chat Zalo ngay",
   },
   {
     title: "Instagram",
-    url: "https://www.instagram.com/sera.gemsstone",
+    url: "zalo.html",
     icon: "instagram" as const,
     description: "Theo dõi mình trên Instagram",
   },
   {
-    title: "Zalo",
-    url: "https://zalo.me/0898002220",
-    icon: "zalo" as const,
-    description: "Liên hệ với mình qua Zalo",
+    title: "TikTok",
+    url: "https://www.tiktok.com/@_sweetie.gems_12",
+    icon: "tiktok" as const,
+    description: "Theo dõi mình trên TikTok",
   },
 ];
 
