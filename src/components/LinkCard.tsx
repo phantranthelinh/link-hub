@@ -13,6 +13,12 @@ const iconMap = {
   zalo: ZaloIcon,
 };
 
+const iconGradient = {
+  tiktok: "var(--icon-tiktok)",
+  instagram: "var(--icon-instagram)",
+  zalo: "var(--icon-zalo)",
+};
+
 const LinkCard = ({ title, url, icon, description }: LinkCardProps) => {
   const Icon = iconMap[icon];
 
@@ -34,7 +40,7 @@ const LinkCard = ({ title, url, icon, description }: LinkCardProps) => {
     >
       <div
         className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-primary-foreground"
-        style={{ background: 'var(--gradient-bg)' }}
+        style={{ background: iconGradient[icon] }}
       >
         <Icon className="h-6 w-6" />
       </div>
